@@ -1,0 +1,7 @@
+times = ('palmeiras', 'sao paulo', 'corinthians', 'bragantino', 'santos', 'flamengo', 'mirassol', 'botafogo', 'cruzeiro', 'atletico mineiro', 'goias', 'chapecoense', 'vasco', 'ponte preta', 'bahia', 'paysandu', 'atletico paranaense', 'ituano', 'internacional', 'gremio')
+times_ordenados = sorted(times)
+print(times[0:5])
+print(times[16:20])
+print(times_ordenados)
+chapecoense = times.index('chapecoense')
+print(chapecoense + 1) 
